@@ -1,0 +1,23 @@
+{
+  "name": "are-you-a-cartoon-hobo",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "1.0.17",
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "money-formatter": "^0.1.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-form": "^2.16.1",
+    "regent": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && surge --project ./build --domain hobo.eisenberg.ninja"
+  }
+}
