@@ -3,14 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
-    "react-scripts": "1.0.17",
-    "standard": "^10.0.3"
+    "react-scripts": "^4.0.3",
+    "standard": "^16.0.4"
   },
   "dependencies": {
     "money-formatter": "^0.1.4",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-form": "^2.16.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-form": "^4.0.1",
     "regent": "^1.1.1"
   },
   "scripts": {
@@ -19,5 +19,17 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "deploy": "npm run build && surge --project ./build --domain hobo.eisenberg.ninja"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
